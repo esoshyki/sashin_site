@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Chilanka|Source+Code+Pro:400,400i,600,600i,700,900,900i&display=swap');
+
+body {
+    height: 100vh;
+    overflow: hidden;
+    }
+
+.container {
+
+}
+
+.background1 {
+    position: relative;
+    background-image: url('http://www.fa-d.com/wp-content/themes/fa-design/library/media/images/pattern.png');
+    height: 100vh;
+    width: 100vw;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    background-image: url('./back2.jpg');
+    height: 105%;
+    width: 105%;
+    background-size: cover;
+    opacity: 1;
+}
+
+.menu {
+    position: absolute;
+    width: 250px;
+    top: 150px;
+    left: 20%;
+    z-index: 2;
+}
+
+.menu_nav {
+    color: #ffffff;
+    font-size: 30px;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.menu_nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu_nav_about:hover {
+    color: aqua;
+}
+
+.menu_nav_work:hover {
+    color: greenyellow;
+}
+
+.menu_nav_contacts:hover {
+    color: red;
+}
+
+footer {
+    position: absolute;
+    height: 70px;
+    top: 90%;
+    right: 100px;
+    text-align: right;
+    color: white;
+    font-size: 30px;
+}
