@@ -114,10 +114,32 @@ body {
     flex-direction: row;
     flex-wrap: nowrap;
     overflow: hidden;
+    z-index: 5;
+    transition-duration: 1000ms;
 }
 
 .articles_articles p {
     width: 300px;
+}
+
+.slider {
+    width: 50px;
+    position: absolute;
+    z-index: 5;
+}
+
+.left_slider {
+    top: 600px;
+    right: calc(30% + 330px);
+}
+
+.right_slider {
+    top: 600px;
+    right: calc(30% - 80px);
+}
+
+.slider:hover {
+    transform: scale(1.05)
 }
 
 footer {
